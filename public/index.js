@@ -125,7 +125,7 @@ function renderProducts() {
         </div>`: ''}
       </div>
       <div class="p-4 flex flex-col justify-between flex-1">
-          <h5 class="text-sm font-medium mb-2">${product.title}</h5>
+          <p class="text-sm font-medium mb-2">${product.title}</p>
           <div data-tip="${product.description}"
           class="
           relative 
