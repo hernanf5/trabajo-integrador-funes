@@ -1,0 +1,42 @@
+[
+    {
+      "id": 13,
+      "discount": 15
+    },
+    {
+      "id": 10,
+      "discount": 30
+    },
+    {
+      "id": 4,
+      "discount": 48
+    },
+    {
+      "id": 19,
+      "discount": 22
+    },
+    {
+      "id": 3,
+      "discount": 5
+    },
+    {
+      "id": 7,
+      "discount": 37
+    },
+    {
+      "id": 18,
+      "discount": 42
+    },
+    {
+      "id": 9,
+      "discount": 20
+    },
+    {
+      "id": 12,
+      "discount": 28
+    },
+    {
+      "id": 6,
+      "discount": 45
+    }
+  ]

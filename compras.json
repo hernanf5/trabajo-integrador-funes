@@ -1,0 +1,43 @@
+[
+  [
+    {
+      "id": 1,
+      "title": "Fjallraven - Mochila Foldsack No. 1, con capacidad para 15 portátiles",
+      "price": 109.95,
+      "description": "Tu mochila perfecta para el uso diario y los paseos por el bosque. Guarde su computadora portátil (hasta 15 pulgadas) en la funda acolchada, su uso diario",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Camisetas ajustadas premium informales para hombre",
+      "price": 22.3,
+      "description": "Estilo ajustado, manga larga raglán en contraste, tapeta henley de tres botones, tejido ligero y suave para un uso cómodo y transpirable. Y camisas con costuras sólidas y cuello redondo hechas para mayor durabilidad y un excelente ajuste para ropa de moda informal y fanáticos acérrimos del béisbol. El escote redondo estilo Henley incluye una tapeta de tres botones.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      },
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "title": "Micropavé pequeño de oro macizo",
+      "price": "92.40",
+      "description": "Satisfacción garantizada. Devuelva o cambie cualquier pedido dentro de los 30 días. Diseñado y vendido por Hafeez Center en los Estados Unidos. Satisfacción garantizada. Devuelva o cambie cualquier pedido dentro de los 30 días.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      },
+      "quantity": 1
+    }
+  ]
+]

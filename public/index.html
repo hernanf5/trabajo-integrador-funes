@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FAKE STORE</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <div class=" flex flex-col absolute top-0 z-[-2] min-h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+        <!-- navbar -->
+        <section class="flex justify-between items-center backdrop-blur-sm bg-white/30 sticky top-0 left-0 right-0 w-screen">
+            <img src="./images/logo.svg" class="w-[100px] h-[100px]" />
+            <div class="mr-5 cursor-pointer pr-10" id="carrito" onclick="mostrarCarrito(true)">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+                <div class="bg-red-500 rounded-full w-6 h-6 text-center absolute top-5 right-3 text-white weight-bold font-bold mr-10" id="contadorCarrito"></div>
+            </div>
+        </section>
+        <!-- carrito -->
+        <div  class=" hidden fixed top-0 right-0 w-1/2 h-screen bg-gray-200 z-40 py-3 px-3" id="carritoContenedor">
+            <div class="flex text-xl font-black w-full justify-end pr-3 cursor-pointer" onclick="mostrarCarrito(false)" >X</div>
+            <div id="menuCarrito">
+
+            </div>
+            <div id="botonesPrimarios" class="absolute w-full flex justify-around z-50 bottom-5 left-0 pb-3">
+                <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-2xl" onclick="vaciarCarrito()">Vaciar carrito</button>
+                <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-2xl" onclick="guardarCompra()">Realizar compra</button>
+            </div>
+        </div>
+
+        <!-- hero -->
+        <div class="flex  justify-around items-center min-h-[600px] bg-black text-white mx-40 rounded my-28">
+            <h1 class="text-3xl">Los mejores productos a unos clicks de distancia</h1>
+            <div>
+                <img src="./images/pngegg.png" alt="img" class="w-[500px]">
+            </div>
+        </div>
+        <!-- cardContainer -->
+        <div class=" flex gap-40 justify-center my-10 mx-40 rounded flex-wrap bg-white overflox-x-hidden w-5/6" id="cardContainer">
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
